@@ -41,6 +41,7 @@ body{
      margin: 10px;
     background-color: rgb(187, 233, 37);
     padding: 10px;
+    transition: all 1s;
 
 }
 .menu li a{
