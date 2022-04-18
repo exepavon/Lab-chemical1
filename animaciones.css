@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h2{
+    color:black;
+    font-size:50px ;
+    font-family: 'Tangerine',cursive;
+    line-height: 1,6px;
+    border: rgba(233, 26, 19, 0.781) 8px solid;
+    background-color: rgb(248, 217, 217);
+    padding: 10px;
+    margin: 1rem;
+    
+
+}
+h3{
+    color: rgb(12, 11, 11);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1,2;
+}
+ul{
+    font-family: 'Bangers', cursive;
+    
+    }
+body{
+    background-color: #90d5ec;
+    background: rgb(196,53,120);
+    background: rgb(207, 226, 36);
+    background: radial-gradient(circle, rgba(121,121,238,0.5606617647058824) 0%, rgba(0, 12, 4, 0.849) 100%);
+    
+    
+}
+
+.menu li{
+    display: inline-block;
+     margin: 10px;
+    background-color: rgb(187, 233, 37);
+    padding: 10px;
+
+}
+.menu li a{
+    text-decoration:none;
+    display: inline-block;
+    color: rgb(33, 5, 39);
+}
+.menu li:hover{
+    background-color: rgb(91, 222, 245);
+    border-radius: 40%;
+
+}
+.menu li:hover{
+    color: beige;
+}
+img{
+    width: 800px;
+    box-sizing: border-box;
+}
+img:hover{
+    border: #030c0f solid 6px;
+}
+footer{
+    text-align: right;
+}
+h1{
+    color: rgb(228, 57, 15);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.menu{
+    
+    list-style-type: none;
+    margin:auto;
+    background-color: rgb(238, 41, 100);
+    max-width: 1200px;
+    width:auto;
+    height: 10vh;
+    display:grid ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "home conocenos ofertas fragancias marcas registro";
+    justify-self: center;
+    align-items:center;
+    border: 2px solid black;
+    text-align: center;
+    }
+    
+.galeria-imagenes{
+    width: 100%;
+}
+.logo{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1 1fr);
+    grid-template-rows: repeat(1 1fr);
+    grid-gap: 10px;
+}
+footer{
+    background-color: rgb(184, 11, 126);
+    height: 100px;
+    color: black;
+    margin-top: 50px;
+
+}
+@media (max-width: 900px){
+    body{
+        background-color: red;
+    
+    }
+    }
+    @media (max-width: 500px){
+        body{
+            background-color: green
+            }
+    
+            }
+img{
+    margin: 20px auto;
+    transition: all 3s;
+
+}
+img:hover{
+    transform: scale(1.1,1.1);
+    border-radius: 20%;
+}
