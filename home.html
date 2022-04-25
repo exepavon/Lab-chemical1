@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="estilo.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,12 +17,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 <link rel="shortcut icon" href="./imagenes/favicon-32x32.png">
 
-
 <title>Chemical Perfumes</title>
 </head>
-<body>
-    <!--Comineza mi pagina-->
-    <header>
+<body><!--Comineza mi pagina-->
+    <header class="logo">
         <img src="./imagenes/chemical.jpg.png" alt="logo de la marca"width=1000>
         <hr>
          <nav>
@@ -31,39 +31,70 @@
                         <li><a href="./fragancias.html">Fragancias</a></li>
                         <li><a href="./marcas.html">Marcas</a></li>
                         <li><a href="./registro.html">Registro</a></li>
-                                             
-             </ul>
-                </nav>
+            </ul>
+            </nav>
                 <hr>
-                <header>
+            </header>
                 <main>
-                    <section>
+                    
+                    <section class="contenedor-imagenes">
                         <p><h2>Las mejores fragancias del mundo en una perfumeria virtual con excelentes precios y productos de la más alta calidad. </h2>
                         </p>
-                        <hr>
                     </section>
-            <section><!--imagenes promocionales-->
-                <img src="./imagenes/hugo boos.jpg"alt="foto perfume hugo boss"width=600>
-                <img src="./imagenes/descuentos.webp" alt="foto descuentos"width=600>
-                
-                <br>
-                <img src="./imagenes/flower-by-kenzo.webp" alt="Foto perfume flower-by-kenzo"width=1000>
+                        
+                        <hr>
+                        <br>
+                        <section>
+                        <div id="carouselExampleIndicators" class="carousel slide w-70" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./imagenes/kenzo flower tamaño nuevo.jpg" class="d-block w-100" alt="foto perfumer flower"width= "200px" height= "500px">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./imagenes/INVICTUS-Y-OLYMPEA-LEGEND tamano nuevo.jpg" class="d-block w-100" alt="foto perfume invictus"width= "200px" height= "500px">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./imagenes/nina ricci nuevo ok.png" width="400px" class="d-block w-100" alt="foto perfume nina ricci"width= "200px" height= "500px">
+                              </div>
+                              <br><br><br>
+                            </div>
+                            <button class="carousel-control-prev w-50" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        </section>
+                        <br><br>
+                        <section>
+                            <div class="contenedor ofertas 1">
+                            <img src="./imagenes/descuentos.webp" alt="ofertas" width="800" height="auto">
+                            
+                        </div>
+                        <br><br><br>
+                        <div class="contenedor ofertas 2">
+                            <img src="./imagenes/tp12cuotas tamaño nuevo.jpg" alt="ofertas" width="800" height="auto">
+                        </div>
+
+                        </section>
+
+                         
+                </main> 
+        
                 <hr>
-                <img src="./imagenes/INVICTUS-Y-OLYMPEA-LEGEND.jpg" alt="foto perfume nina ricci"width=800>
-                <hr>
-                <main>
-            </section>
-            <section>
-                <br><br><br>
-                <img src="./imagenes/nina ricci.webp" alt="foto perfume nina ricci"width=1200>
-                <hr>
-                <img src="./imagenes/tp12cuotas.jpg" alt="foto cuotas con tarjeta"width=800>
-            </section>
-            
-                <hr>
-                <footer id="Contactenos">
+                <footer class="footer" id="Contactenos">
                 <h3>Chemicalperfumes@chemical.com<h3>
                 <h3>+543516117487<h3>
             </footer>
-            </body>
-            </html>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
